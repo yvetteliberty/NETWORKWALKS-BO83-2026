@@ -30,3 +30,25 @@ The main Purpose of this project is to:
 - Take a clean VM snapshot for recovery.
 - Document the complete setup process.
 - Prepare the environment for future cybersecurity projects.
+<hr>
+
+# 🛡️ Goal
+The Goal is to create an Isolated environment for Hand-on Practise for the Cybersecurity Leaning on an authorized security environment.
+It will be used for Penetration and Ethical hacking  cybersecurity activities, which includes:
+
+- Network reconnaissance
+- Port scan
+- Vulnerability assessment
+- Packet analysis
+- Web application security testing
+- Exploitation and penetration-testing practice
+- Experimentation with security tools
+  
+<hr>
+
+  # 🔍Lab Architecture
+
+  <img width="830" height="371" alt="image" src="https://github.com/user-attachments/assets/4509da00-5927-456f-90fc-c1869e0d7285" />
+ <hr>
+ # ⚙️ Lab Configuration
+ 

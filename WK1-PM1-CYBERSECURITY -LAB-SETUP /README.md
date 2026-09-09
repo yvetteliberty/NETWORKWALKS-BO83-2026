@@ -112,4 +112,54 @@ Take snapshot of the VM
 After the configuration of the kali linux,a snapshot was taken to document the clean state of the kali linux .
 
 # 🔍 Lab Verification
- 
+ | ✅ Test | 🧾 Command | 🎯 Expected Result |
+|---|---|---|
+| 🌐 Check IP address | `ip a` | Correct Kali IP displayed |
+| 📡 Test gateway | `ping 10.0.0.1` | Successful replies |
+| 🌍 Test Internet connectivity | `ping 8.8.8.8` | Successful replies |
+| 🔎 Test DNS resolution | `nslookup networkwalks.com` | Domain resolves |
+| 🧰 Verify Nmap | `nmap --version` | Nmap version displayed |
+
+<img width="305" height="86" alt="image" src="https://github.com/user-attachments/assets/e7a4b663-5377-4675-b9fe-176ae9a13983" />
+<img width="264" height="99" alt="image" src="https://github.com/user-attachments/assets/3557b5bf-153d-47ff-ae6d-6d7550ad6061" />
+<img width="282" height="94" alt="image" src="https://github.com/user-attachments/assets/fa3249ea-2a11-43d5-a9aa-4e8a1cba26da" />
+<img width="350" height="148" alt="image" src="https://github.com/user-attachments/assets/b568a7de-7e64-4456-9a9f-a3f2e77deb9b" />
+<img width="347" height="68" alt="image" src="https://github.com/user-attachments/assets/ff8f5022-0e18-45f5-b163-baea3a3eac0c" />
+
+
+<hr>
+
+# Skill Gained
+
+ 1. Difference beteewen NAT and NAT Network.
+    
+NAT isolates each virtual machine (VM) so it cannot talk to other VMs, while a NAT Network places multiple VMs on a shared virtual switch so they can communicate with each other and how to configure it on the Virtual box setting.
+
+ 3. Static IP configuration.
+    
+ Gain an understanding on how to set the static IP on kali linux.
+
+4. Virtual Machine Networking
+
+Gain an understanding on the process of  how VirtualBox virtual network adapters connect virtual machines to different types of networks and how network configuration affects communication between machines.
+
+6. VM Snapshots.
+   
+I learned that  taken  a snapshot should be created before performing risky or experimental activities.
+
+<hr>
+
+# ⚠️ Disclaimer
+This project was conducted in a controlled educational lab environment designed for cybersecurity training purposes. All activities were performed on authorized systems.
+
+<hr>
+
+#  👤 Author 
+ Yvette Ngozi Mefendja
+ Cybersecurity Intern  Networkwalks B083.
+
+<hr>
+
+# 📌 Program Information
+
+Program Name: Cybersecurity at Networkwalks | Week: 01 | Project: Cybersecurity & Pentesting Lab Setup | Repository: GitHub

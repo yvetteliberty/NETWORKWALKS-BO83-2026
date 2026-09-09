@@ -50,5 +50,29 @@ It will be used for Penetration and Ethical hacking  cybersecurity activities, w
 
   <img width="830" height="371" alt="image" src="https://github.com/user-attachments/assets/4509da00-5927-456f-90fc-c1869e0d7285" />
  <hr>
- # ⚙️ Lab Configuration
  
+ # ⚙️ Lab Configuration
+
+ ## 🖥️ Lab Environment Configuration
+
+| 🧩 Component | ⚙️ Configuration |
+ |---|---|
+| 🧠 Host RAM | 16 GB |
+| ⚡ Processor | Intel Core i5 |
+| 🧰 Hypervisor | VirtualBox 7.2 |
+| 🐉 Security OS | Kali Linux 2026.2 |
+| 🧠 Kali RAM | 2048 MB |
+| 🌐 Virtual Network | NAT Network |
+| 📡 Network Address | 10.0.0.0/24 |
+| 🐧 Kali IP Address | 10.0.0.3/24 |
+| 🚪 Default Gateway | 10.0.0.1 |
+| 🌍 DNS Server | 8.8.8.8 |
+
+<hr>
+
+# 🧰 Tools Used: 
+The following Tools were used on this Project and there are as follows:
+- Laptop
+- Virtual Box
+- Kali Linux
+- 7.zip

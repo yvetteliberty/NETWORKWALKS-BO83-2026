@@ -99,6 +99,8 @@ Through this project, I learnt how to perform basic cybersecurity reconnaissance
 - Document reconnaissance findings in a structured manner for cybersecurity assessment.
 
 Overall, the project improved my understanding of information gathering, network enumeration, and the importance of identifying exposed information and services as part of a security assessment.
+# 🧰Report 
+The report included as a file.
 
 # 🔐 Security and Ethical Use
 This project is basicly for educational Purposes only

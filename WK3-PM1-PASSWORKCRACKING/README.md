@@ -23,3 +23,37 @@ This is to understand the steps in using the password crack tool such as John th
 <hr>
 
 # 🧰 Password Craking Tools
+The following  Tools are used for the password cracking project.
+- John the Ripper
+- Networkwalks tools(Hash calculator ,password cracking link
+  <hr>
+
+ # ⏳ Activity Performed For Task 1
+  
+John the Ripper tool was downloaded  through the official website  https://www.openwall.com/john/ and  Johnny GUI from official website: https://openwall.info/wiki/john/johnny.
+I run the setup file and install Johnny on the window system.
+The john ripper browser was set by selecting the John .exe.
+A pdf files protected were download for the task.
+I opened an online hashed website   https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php and upload the pdf files to obtain the hash values .
+The hash values are copied and saved on a note pad as a txt file.
+The hash values are uploaded on the John the ripper GUI to  obtain the password.
+<img width="975" height="394" alt="image" src="https://github.com/user-attachments/assets/81b3a1ef-d088-407d-8165-8e74ba3d2803" />
+<img width="975" height="416" alt="image" src="https://github.com/user-attachments/assets/3dd8d632-e5c1-414d-a1ba-70d29a61c661" />
+
+<img width="897" height="713" alt="image" src="https://github.com/user-attachments/assets/9d366957-78b0-4844-9171-b593e724a54b" />
+<img width="904" height="723" alt="image" src="https://github.com/user-attachments/assets/20576e13-46fb-48c1-93d8-641bc5de9162" />
+<img width="975" height="513" alt="image" src="https://github.com/user-attachments/assets/3443007e-64b9-45a8-b25e-61d834b36e07" />
+<img width="975" height="341" alt="image" src="https://github.com/user-attachments/assets/425f24f4-6865-409b-b6fb-932e5f54aff6" />
+
+<img width="975" height="395" alt="image" src="https://github.com/user-attachments/assets/fbceaab0-e93c-49bf-9418-f92cc7126904" />
+
+
+<img width="908" height="634" alt="image" src="https://github.com/user-attachments/assets/ebc2b93e-d0fd-4c9b-9b21-ee9cdd9c085c" />
+
+
+
+
+
+
+
+  

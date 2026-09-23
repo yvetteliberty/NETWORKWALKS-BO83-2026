@@ -28,7 +28,10 @@ The following  Tools are used for the password cracking project.
 - Networkwalks tools(Hash calculator ,password cracking link
   <hr>
 
- # ⏳ Activity Performed For Task 1
+ # ⏳ Activity Performed 
+ 
+ # 📌 Task 1
+ Crack the password of attached PDF file (My Locked PDF1.pdf) using JTR JOHN and JTR JOHNNY tools 
   
 John the Ripper tool was downloaded  through the official website  https://www.openwall.com/john/ and  Johnny GUI from official website: https://openwall.info/wiki/john/johnny.
 I run the setup file and install Johnny on the window system.
@@ -50,6 +53,9 @@ The hash values are uploaded on the John the ripper GUI to  obtain the password.
 
 <img width="908" height="634" alt="image" src="https://github.com/user-attachments/assets/ebc2b93e-d0fd-4c9b-9b21-ee9cdd9c085c" />
 
+# 📌 Task 2
+Crack the password of the attached PDF file (My Locked PDF1.pdf) using the
+Networkwalks Hash Calculator and Password Cracker tools on  Windows.
 
 
 

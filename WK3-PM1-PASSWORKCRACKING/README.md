@@ -32,7 +32,7 @@ The following  Tools are used for the password cracking project.
  
  # 📌 Task 1
  Crack the password of attached PDF file (My Locked PDF1.pdf) using JTR JOHN and JTR JOHNNY tools 
-  
+  # Procedures
 John the Ripper tool was downloaded  through the official website  https://www.openwall.com/john/ and  Johnny GUI from official website: https://openwall.info/wiki/john/johnny.
 I run the setup file and install Johnny on the window system.
 The john ripper browser was set by selecting the John .exe.
@@ -56,6 +56,39 @@ The hash values are uploaded on the John the ripper GUI to  obtain the password.
 # 📌 Task 2
 Crack the password of the attached PDF file (My Locked PDF1.pdf) using the
 Networkwalks Hash Calculator and Password Cracker tools on  Windows.
+# Procedures
+- The encrypted PDF file (My Locked PDF1.pdf) was downloaded through  the lab page: https://networkwalks.com/project-task-lab-password-cracking-with-networkwalks-tools/
+   - Open the Networkwalks Hash Calculator in your web browser: https://networkwalks.com/hash-calculator/
+<img width="779" height="335" alt="image" src="https://github.com/user-attachments/assets/0e2b9540-2dbf-4218-ae0d-25f6af874fbc" />
+ - Upload the locked PDF file to the Hash Calculator. 
+<img width="674" height="296" alt="image" src="https://github.com/user-attachments/assets/572e1748-34fd-4130-ba4f-7b0c4c5d2fea" />
+- Open the Networkwalks Password Cracker in your web browser:
+  <img width="715" height="331" alt="image" src="https://github.com/user-attachments/assets/eecf9b32-cc4c-43f6-a9a1-3906129ba1c8" />
+  - Paste the hash value into the Password Cracker and start the attack.
+<img width="735" height="315" alt="image" src="https://github.com/user-attachments/assets/eb63f1db-fc74-4aa6-9e0f-8ae2fd1b40bb" />
+<img width="726" height="367" alt="image" src="https://github.com/user-attachments/assets/efb1b988-64fa-46d1-8603-b63ed11649d7" />
+<img width="759" height="330" alt="image" src="https://github.com/user-attachments/assets/ba483caa-e228-42d0-93cf-504c8b8dbf42" />
+<img width="605" height="357" alt="image" src="https://github.com/user-attachments/assets/9e17c890-50cb-4d91-a5e3-1e1e004fe78d" />
+<img width="588" height="344" alt="image" src="https://github.com/user-attachments/assets/98dbb1f2-108e-4e16-9602-9ea1455dddcb" />
+
+# Skill Gain
+During this project , I gain an understanding on how to use John the Ripper and the Networkwalks tools to crack encrypted password.
+
+# 🛡️ Security and Ethical Use
+This project is for Educational purpose only.
+
+# 👤 Author
+- Yvette Ngozi Mefendja
+- Cybersecurity Intern B083
+- LinkedIn:www.linkedin.com/in/yvettemefendja
+
+
+# 📌 Project Information
+Program Name: Cybersecurity at Networkwalks | Week: 03 | Project: Cybersecurity & Pentesting Lab Setup | Repository: GitHub
+
+
+
+
 
 
 

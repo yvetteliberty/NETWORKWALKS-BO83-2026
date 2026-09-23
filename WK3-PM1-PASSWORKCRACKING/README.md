@@ -44,8 +44,11 @@ The hash values are uploaded on the John the ripper GUI to  obtain the password.
 <img width="975" height="416" alt="image" src="https://github.com/user-attachments/assets/3dd8d632-e5c1-414d-a1ba-70d29a61c661" />
 
 <img width="897" height="713" alt="image" src="https://github.com/user-attachments/assets/9d366957-78b0-4844-9171-b593e724a54b" />
+
 <img width="904" height="723" alt="image" src="https://github.com/user-attachments/assets/20576e13-46fb-48c1-93d8-641bc5de9162" />
+
 <img width="975" height="513" alt="image" src="https://github.com/user-attachments/assets/3443007e-64b9-45a8-b25e-61d834b36e07" />
+
 <img width="975" height="341" alt="image" src="https://github.com/user-attachments/assets/425f24f4-6865-409b-b6fb-932e5f54aff6" />
 
 <img width="975" height="395" alt="image" src="https://github.com/user-attachments/assets/fbceaab0-e93c-49bf-9418-f92cc7126904" />
@@ -58,17 +61,29 @@ Crack the password of the attached PDF file (My Locked PDF1.pdf) using the
 Networkwalks Hash Calculator and Password Cracker tools on  Windows.
 # Procedures
 - The encrypted PDF file (My Locked PDF1.pdf) was downloaded through  the lab page: https://networkwalks.com/project-task-lab-password-cracking-with-networkwalks-tools/
+  
    - Open the Networkwalks Hash Calculator in your web browser: https://networkwalks.com/hash-calculator/
+     
 <img width="779" height="335" alt="image" src="https://github.com/user-attachments/assets/0e2b9540-2dbf-4218-ae0d-25f6af874fbc" />
- - Upload the locked PDF file to the Hash Calculator. 
+
+ - Upload the locked PDF file to the Hash Calculator.
+   
 <img width="674" height="296" alt="image" src="https://github.com/user-attachments/assets/572e1748-34fd-4130-ba4f-7b0c4c5d2fea" />
-- Open the Networkwalks Password Cracker in your web browser:
+
+- Open the Networkwalks Password Cracker in your web browser
+  
   <img width="715" height="331" alt="image" src="https://github.com/user-attachments/assets/eecf9b32-cc4c-43f6-a9a1-3906129ba1c8" />
+  
   - Paste the hash value into the Password Cracker and start the attack.
+    
 <img width="735" height="315" alt="image" src="https://github.com/user-attachments/assets/eb63f1db-fc74-4aa6-9e0f-8ae2fd1b40bb" />
+
 <img width="726" height="367" alt="image" src="https://github.com/user-attachments/assets/efb1b988-64fa-46d1-8603-b63ed11649d7" />
+
 <img width="759" height="330" alt="image" src="https://github.com/user-attachments/assets/ba483caa-e228-42d0-93cf-504c8b8dbf42" />
+
 <img width="605" height="357" alt="image" src="https://github.com/user-attachments/assets/9e17c890-50cb-4d91-a5e3-1e1e004fe78d" />
+
 <img width="588" height="344" alt="image" src="https://github.com/user-attachments/assets/98dbb1f2-108e-4e16-9602-9ea1455dddcb" />
 
 # Skill Gain

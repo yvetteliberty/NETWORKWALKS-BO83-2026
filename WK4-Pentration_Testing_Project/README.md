@@ -45,7 +45,7 @@ Tools used during the assessment included:
   
 # Findings and Proof of Exploitation
  Finding 1 : Public directory listing and exposed database backup URL:/Old/
-Description: 
+## Description: 
 Public directory listing occurs when sensitive or confidential information is unintentionally made accessible through publicly available directories, web pages, file listings, or online databases. This may expose information such as employee details, shareholder records, contact information, internal documents, system information, or other organizational data to unauthorized individuals.
 Exposed File: mediroza_db_backup_2019 sql Unauthorized access to database information. The file was accessible without authentication.
 Impact: The exposed potentially allows an unauthorized visitor to obtain confidential organizations data.
@@ -53,21 +53,23 @@ Impact: The exposed potentially allows an unauthorized visitor to obtain confide
  <img width="570" height="157" alt="image" src="https://github.com/user-attachments/assets/6fec3113-d92d-45a8-b731-c70f3bab7f3e" />
  <img width="1110" height="302" alt="image" src="https://github.com/user-attachments/assets/12c20f1a-c791-47a8-9f5a-c46031bda165" />
 
-Finding  2:  Sensitive Information exposure Shareholders Records.
-Description:
+# Finding  2:  Sensitive Information exposure Shareholders Records.
+## Description:
 Sensitive information exposure involving shareholders’ records occurs when confidential shareholder data is accessed, disclosed, shared, or made available to unauthorized individuals or parties. Such records may contain personal and financial information, including shareholders’ names, contact details, shareholdings, ownership percentages, identification information, dividend details, or other confidential corporate records.
 
 Evidence: Public directory listing permitted retrieval of an internal, database backup which contains   staff table, shareholder information including salary data 
 
 <img width="882" height="127" alt="image" src="https://github.com/user-attachments/assets/1ec48361-dfb6-43ca-8e32-8ff7617b3341" />
-Impact: An unauthorized party who can retrieve the exposed database backup could access confidential shareholder compensation information
 
-Finding 3: SQL Injection in Patient Login Portal
-Description
+## Impact
+An unauthorized party who can retrieve the exposed database backup could access confidential shareholder compensation information
+
+# Finding 3: SQL Injection in Patient Login Portal
+## Description
 A SQL Injection vulnerability was identified in the patient login functionality.
 The application accepts user-controlled input through the login form. Testing demonstrated that specially crafted input could alter the application's interaction with the underlying database.
 The successful test indicates that the application does not adequately validate or safely process input before using it in a database query.
-Impact
+## Impact
 - An attacker could potentially use this vulnerability to:
 - Bypass authentication controls.
 -	Access restricted patient areas.
@@ -98,44 +100,64 @@ Because the affected system belongs to a healthcare organization, unauthorized d
  Remediate SQL Injection
 The SQL Injection vulnerability should be addressed immediately.
 Recommended actions include:
-•	Use parameterized queries and prepared statements.
-•	Do not concatenate user input directly into SQL queries.
-•	Implement strict server-side input validation.
-•	Apply appropriate input encoding where required.
-•	Use database accounts with the minimum privileges necessary.
-•	Implement secure error handling so database errors are not exposed to users.
-•	Conduct a full review of other application inputs for similar vulnerabilities.
-Strengthen Authentication
+-	Use parameterized queries and prepared statements.
+- Do not concatenate user input directly into SQL queries.
+- Implement strict server-side input validation.
+-	Apply appropriate input encoding where required.
+- Use database accounts with the minimum privileges necessary.
+-	Implement secure error handling so database errors are not exposed to users.
+- Conduct a full review of other application inputs for similar vulnerabilities.
+# Strengthen Authentication
 The patient portal should use strong authentication controls, including:
-•	Secure session management.
-•	Account lockout rate limiting should be implemented.
-•	Secure password storage.
-•	Multi-factor authentication where appropriate.
-•	Protection against authentication bypass.
-•	Continuous monitoring of suspicious login activity.
- Protect Patient Documents.
+-	Secure session management.
+-	Account lockout rate limiting should be implemented.
+-	Secure password storage.
+- Multi-factor authentication where appropriate.
+-	Protection against authentication bypass.
+- Continuous monitoring of suspicious login activity.
+# Protect Patient Documents.
 Patient laboratory reports should not be publicly accessible or predictable through direct URLs.
 Recommended controls include:
-
-•	Enforce authorization checks before serving files.
-•	Store sensitive files outside the public web directory where possible.
-•	Use unpredictable file identifiers.
-•	Apply access-control checks on every document request.
-•	Encrypt sensitive files appropriately.
-•	Log and monitor access to patient records.
- Protect Sensitive Business Information
+-	Enforce authorization checks before serving files.
+-	Store sensitive files outside the public web directory where possible.
+-	Use unpredictable file identifiers.
+-	Apply access-control checks on every document request.
+-	Encrypt sensitive files appropriately.
+-	Log and monitor access to patient records.
+ # Protect Sensitive Business Information
 Employee salary information and shareholder information should be restricted to authorized personnel.
 Access should follow the principle of least privilege, with appropriate authentication, authorizations, logging and monitoring.
 
-
- Conclusion
+# Conclusion
 The penetration test identified a Critical SQL Injection vulnerability in the Mediroza General Hospital patient login portal. The vulnerability was successfully exploited during the authorized assessment
 The finding demonstrates that inadequate input handling within an authentication function can create a path to unauthorised access and potentially expose sensitive healthcare information.
-
-
-Assessment Limitation
+# Assessment Limitation
 The assessment was performed under the restrictions defined in the engagement brief. Testing was limited to the authorized target domain, with no social engineering or denial-of-service testing.
-Confidentiality Notice: This report contains information relating to security testing of a healthcare web application and should be restricted to authorized personnel
+# Confidentiality Notice: 
+This report contains information relating to security testing of a healthcare web application and should be restricted to authorized personnel
+
+# Lessons Learned
+This Project provided a practical experience  in :
+- web application Reconnaissance
+- Authentication Testing
+- SQL Injection  Identification
+- Burp Suite
+- cURL
+- Vulnerability validation
+- Evidence collection
+- Risk assessment
+- Penetration-testing reporting
+- Security remediation
+# Ethical Considerations
+All testing was performed within the authorised project scope.
+
+# The assessment rules prohibited:
+- Testing outside the target domain
+- Social engineering
+- Denial-of-service attacks
+- Unauthorised testing
+The project brief explicitly states that written authorisation was provided for the assessment.
+
 # 🧰Report
 The  report is included as a file.
 

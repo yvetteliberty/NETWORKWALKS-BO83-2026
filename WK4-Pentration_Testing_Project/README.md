@@ -78,3 +78,73 @@ Because the affected system belongs to a healthcare organization, unauthorized d
 
 <img width="975" height="405" alt="image" src="https://github.com/user-attachments/assets/07b1e846-e588-4af2-a61b-2218386f4dec" />
 
+<img width="477" height="214" alt="image" src="https://github.com/user-attachments/assets/da5f2425-b1bd-439c-a23c-62a09fba0e18" />
+
+<img width="985" height="420" alt="image" src="https://github.com/user-attachments/assets/1cecf364-c403-40c4-99e9-0b8e4580a81f" />
+<img width="975" height="628" alt="image" src="https://github.com/user-attachments/assets/3ec8d7f7-c847-4061-847a-c06b6e37b1c5" />
+
+# Risk Summary
+
+## Risk Summary
+
+| # | Vulnerability | Location | Risk |
+|---:|---|---|---|
+| **1** | SQL injection leading to authentication bypass | `patient/login.php` | 🔴 **Critical** |
+| **2** | Encrypted PDF reports accessible after authentication bypass | `patient/reports/` | 🟠 **High** |
+| **3** | Weak PDF passwords susceptible to wordlist-based password recovery | `patient_report_*.pdf` | 🟠 **High** |
+| **4** | Forgotten backup directory with directory listing enabled | `old/` | 🔴 **Critical** |
+
+ Recommendations and Remediation
+ Remediate SQL Injection
+The SQL Injection vulnerability should be addressed immediately.
+Recommended actions include:
+•	Use parameterized queries and prepared statements.
+•	Do not concatenate user input directly into SQL queries.
+•	Implement strict server-side input validation.
+•	Apply appropriate input encoding where required.
+•	Use database accounts with the minimum privileges necessary.
+•	Implement secure error handling so database errors are not exposed to users.
+•	Conduct a full review of other application inputs for similar vulnerabilities.
+Strengthen Authentication
+The patient portal should use strong authentication controls, including:
+•	Secure session management.
+•	Account lockout rate limiting should be implemented.
+•	Secure password storage.
+•	Multi-factor authentication where appropriate.
+•	Protection against authentication bypass.
+•	Continuous monitoring of suspicious login activity.
+ Protect Patient Documents.
+Patient laboratory reports should not be publicly accessible or predictable through direct URLs.
+Recommended controls include:
+
+•	Enforce authorization checks before serving files.
+•	Store sensitive files outside the public web directory where possible.
+•	Use unpredictable file identifiers.
+•	Apply access-control checks on every document request.
+•	Encrypt sensitive files appropriately.
+•	Log and monitor access to patient records.
+ Protect Sensitive Business Information
+Employee salary information and shareholder information should be restricted to authorized personnel.
+Access should follow the principle of least privilege, with appropriate authentication, authorizations, logging and monitoring.
+
+
+ Conclusion
+The penetration test identified a Critical SQL Injection vulnerability in the Mediroza General Hospital patient login portal. The vulnerability was successfully exploited during the authorized assessment
+The finding demonstrates that inadequate input handling within an authentication function can create a path to unauthorised access and potentially expose sensitive healthcare information.
+
+
+Assessment Limitation
+The assessment was performed under the restrictions defined in the engagement brief. Testing was limited to the authorized target domain, with no social engineering or denial-of-service testing.
+Confidentiality Notice: This report contains information relating to security testing of a healthcare web application and should be restricted to authorized personnel
+# 🧰Report
+The  report is included as a file.
+
+# 🔐 Security and Ethical Use
+This project is basicly for educational Purposes only
+
+# 👤 Author
+Yvette Ngozi Mefendja
+Cybersecurity Intern B083
+LinkedIn:www.linkedin.com/in/yvettemefendja
+# 📌 Project Information
+Program Name: Cybersecurity at Networkwalks | Week: 02 | Project: Cybersecurity & Pentesting Lab Setup | Repository: GitHub

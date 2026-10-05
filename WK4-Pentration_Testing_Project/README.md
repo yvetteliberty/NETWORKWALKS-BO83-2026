@@ -1,5 +1,5 @@
 # Black-Box Web Application Penetration Test — Mediroza Hospital
-This project documents an authorised black-box security assessment of the Mediroza Hospital web application. This is part of Networkwalks  Week 4 Penetration testing Project. The assessement involves  a controlled of Back box penetration test.It required more than identifying possible vulnerabilities: Each milestone had to be demonstrated through actual access, retrieval, recovery and evidence-backed reporting.
+This project documents an authorised black-box security assessment of the Mediroza Hospital web application. This is part of Networkwalks  Week 4 Penetration testing Project. The assessement involves  a controlled of Black box penetration test.It required more than identifying possible vulnerabilities: Each milestone had to be demonstrated through actual access, retrieval, recovery and evidence-backed reporting.
 The assessment developed into a chained compromise involving exposed application structure, authentication weaknesses, weak document protection and publicly accessible legacy data.
 
 # Project Overview.

@@ -40,7 +40,7 @@ Tools used during the assessment included:
 -	Burp Suite
 - cURL
 - Nmap/reconnaissance tools
--  QL Injection testing techniques
+-  SQL Injection testing techniques
 -	Other authorized web-application testing tools
   
 # Findings and Proof of Exploitation
